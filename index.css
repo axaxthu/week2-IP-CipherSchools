@@ -1,0 +1,32 @@
+*{
+    color: green;
+}
+p{
+    color: red;
+}
+p{
+    color: saddlebrown;
+    font-size: 20px;
+    font-size: 30px;
+}
+.para{
+    color:black;
+}
+#para{
+    color:blueviolet;
+}
+header p{
+    color: royalblue;
+}
+/* child selector */
+header>p{
+    background-color: tomato;
+}
+/* adjacent sibling */
+header+p{
+    background-color: rgb(61, 51, 49);
+}
+/* general sibling */
+header~p{
+    background-color: darkgoldenrod;
+}

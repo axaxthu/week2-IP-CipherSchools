@@ -1,0 +1,56 @@
+/* universal selector */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+/*comment in css*/
+p{
+    /* color: blue; */
+    /* background-color: beige; */
+    /* background-color: #000; */
+    /* background-color: rgb(0,0,0,0.8); */
+    color:inherit;
+    background-color: hsl(90deg,60%,70%,0.6);
+    /* absolute unit */
+    width:20px;
+    /* relative unit */
+    width:70vw;
+    margin: 0;
+    line-height: 1.2rem;
+
+}
+div{
+    transform:rotate(0deg);
+    width:calc(100%-20px);
+    height: 100vh;
+    background-image: url("/IMG_20220723_133414.jpg");
+}
+/* grouping selector */
+h1,h2,h3{
+    color: blue;
+
+}
+strong{
+    font-size: 20px;
+}
+body{
+    color: aquamarine;
+}
+/* class selector */
+.heading{
+    background-color: black;
+}
+/* id selector */
+#one{
+    font-size: 30px;
+}
+/* descendent selector */
+.div p{
+    font-size: 50px;
+}
+/* combining selector */
+.container{
+    font-style: italic;
+}

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("/IMG_20220723_133414.jpg");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 100px;
+
+}
+article{
+    background-color: yellow;
+    width: 70%;
+    border-radius: 8px;
+    padding: 10px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+article h1{
+    font-size: 15px;
+    color: blueviolet;
+
+}
+article p{
+    font-size: 8px;
+}
+
